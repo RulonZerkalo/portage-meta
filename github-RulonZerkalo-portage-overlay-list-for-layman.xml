@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
 <repositories version="1.0">
     <repo quality="experimental" status="unofficial">
         <name>RulonZerkalo-gentoo</name>
@@ -12,7 +14,8 @@
         <description>RulonZerkalo-dotnet bleeding edge overlay</description>
         <homepage>https://github.com/RulonZerkalo/dotnet</homepage>
         <owner>RulonZerkalo</owner>
-        <source type="git">https://github.com/RulonZerkalo/dotnet.git</source>
+        <!-- see http://layman.sourceforge.net/ for details of "branch" attribute -->
+        <source type="git" branch="mono-4.4.0.122">https://github.com/RulonZerkalo/dotnet.git</source>
         <feed>https://github.com/RulonZerkalo/dotnet/commits/master.atom</feed>
     </repo>
 </repositories>
