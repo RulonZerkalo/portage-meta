@@ -1,0 +1,18 @@
+<repositories version="1.0">
+    <repo quality="experimental" status="unofficial">
+        <name>RulonZerkalo-gentoo</name>
+        <description>RulonZerkalo-gentoo bleeding edge overlay</description>
+        <homepage>https://github.com/RulonZerkalo/gentoo</homepage>
+        <owner>RulonZerkalo</owner>
+        <source type="git">https://github.com/RulonZerkalo/gentoo.git</source>
+        <feed>https://github.com/RulonZerkalo/gentoo/commits/master.atom</feed>
+    </repo>
+    <repo quality="experimental" status="unofficial">
+        <name>RulonZerkalo-dotnet</name>
+        <description>RulonZerkalo-dotnet bleeding edge overlay</description>
+        <homepage>https://github.com/RulonZerkalo/dotnet</homepage>
+        <owner>RulonZerkalo</owner>
+        <source type="git">https://github.com/RulonZerkalo/dotnet.git</source>
+        <feed>https://github.com/RulonZerkalo/dotnet/commits/master.atom</feed>
+    </repo>
+</repositories>
